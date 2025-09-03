@@ -42,6 +42,7 @@ public class GuessTheNumber {
 
     public static void main(String[] args) {
         GuessTheNumber guessGame=new GuessTheNumber();
+        System.out.println("welcome to my game. try to guess the correct num" + "its between 0 and " +guessGame.max+ " inclusive. type a num to start");
         guessGame.play();
     }
 }
